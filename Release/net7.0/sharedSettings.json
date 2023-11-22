@@ -1,0 +1,91 @@
+{
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.ApplicationInsights",
+      "Serilog.Sinks.Console"
+    ],
+    "MinimumLevel": {
+      "Default": "{{SKPI_LOG_LEVEL}}",
+      "Override": {
+        "Microsoft": "{{SKPI_LOG_MICROSOFT_LEVEL}}",
+        "System": "{{SKPI_LOG_SYSTEM_LEVEL}}"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "ApplicationInsights",
+        "Args": {
+          "connectionString": "InstrumentationKey={{SKPI_APP_INSIGHTS_INSTRUMENTATION_KEY}};IngestionEndpoint={{SKPI_APP_INSIGHTS_INGESTION_ENDPOINT}};LiveEndpoint={{SKPI_APP_INSIGHTS_LIVE_ENDPOINT}}",
+          "telemetryConverter": "Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext", "WithMachineName" ],
+    "Properties": {
+      "Application": "BIMCO SKPI"
+    }
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "{{SKPI_LOG_LEVEL}}",
+      "Microsoft.AspNetCore": "{{SKPI_LOG_MICROSOFT_LEVEL}}",
+      "Microsoft.EntityFrameworkCore.Database.Command": "Error",
+      "Microsoft.EntityFrameworkCore.Model.Validation": "Error"
+    }
+  },
+  "AllowedHosts": "*",
+  "ApplicationInsights": {
+    "ConnectionString": "InstrumentationKey={{SKPI_APP_INSIGHTS_INSTRUMENTATION_KEY}};IngestionEndpoint={{SKPI_APP_INSIGHTS_INGESTION_ENDPOINT}};LiveEndpoint={{SKPI_APP_INSIGHTS_LIVE_ENDPOINT}}"
+  },
+  "ConnectionStrings": {
+    "SKPI": "Server={{SKPI_MSSQL_SERVER}};Database={{SKPI_MSSQL_DATABASE}};User ID={{SKPI_MSSQL_USER_NAME}};Password={{SKPI_MSSQL_PASSWORD}}"
+  },
+  "HttpRequests": {
+    "Cookies": {
+
+    }
+  },
+  "ExternalApis": {
+    "Bimco": {
+      "Authorization": {
+        "Url": "{{SKPI_BIMCO_API_AUTH_URL}}",
+        "ClientId": "{{SKPI_BIMCO_API_AUTH_CLIENTID}}",
+        "Scope": "{{SKPI_BIMCO_API_AUTH_SCOPE}}",
+        "ClientSecret": "{{SKPI_BIMCO_API_AUTH_CLIENT_SECRET}}"
+      },
+      "Endpoint": "{{SKPI_BIMCO_API_ENDPOINT}}"
+    }
+  },
+  "Cache": {
+    "Redis": {
+      "Server": "{{SKPI_REDIS_SERVER}}",
+      "Password": "{{SKPI_REDIS_PASSWORD}}",
+      "Port": "{{SKPI_REDIS_PORT}}",
+      "ProviderName": "redis"
+    },
+    "Settings": {
+      "CacheEnabled": true
+    }
+  },
+  "Cryptography": {
+    "ApplicationSecret": "rridN6aQrzgxj7GoGUQl4epgdJ3o1lFiYFyLhpVUygOevYd4QSuwTI4Jqd3DTNMa"
+  },
+  "OpenIdConnect": {
+    "ClientId": "{{SKPI_OPENID_CONNECT_CLIENTID}}",
+    "Authority": "{{SKPI_OPENID_CONNECT_AUTHORITY}}",
+    "RedirectUri": "{{SKPI_OPENID_CONNECT_REDIRECT_URI}}"
+  },
+  "StaticAssetProcessing": {
+    "JavascriptBundles": {
+      "site.bundle": [
+        "site"
+      ]
+    },
+    "CssBundles": {
+      "site.bundle": [
+        "bimco-bootstrap",
+        "site"
+      ]
+    }
+  }
+}

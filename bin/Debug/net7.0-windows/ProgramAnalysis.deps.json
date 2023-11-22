@@ -1,0 +1,160 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProgramAnalysis/1.0.0": {
+        "dependencies": {
+          "Microsoft.Msagl": "1.1.6",
+          "Microsoft.Msagl.Drawing": "1.1.6",
+          "Microsoft.Msagl.GraphViewerGDI": "1.1.7",
+          "Mono.Cecil": "0.11.5",
+          "QuikGraph": "2.5.0",
+          "QuikGraph.Data": "2.5.0"
+        },
+        "runtime": {
+          "ProgramAnalysis.dll": {}
+        }
+      },
+      "Microsoft.Msagl/1.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Msagl.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Msagl.Drawing/1.1.6": {
+        "dependencies": {
+          "Microsoft.Msagl": "1.1.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Msagl.Drawing.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Msagl.GraphViewerGDI/1.1.7": {
+        "dependencies": {
+          "Microsoft.Msagl.Drawing": "1.1.6"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.5": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          }
+        }
+      },
+      "QuikGraph/2.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "QuikGraph.Data/2.5.0": {
+        "dependencies": {
+          "QuikGraph.Graphviz": "2.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.Data.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "QuikGraph.Graphviz/2.5.0": {
+        "dependencies": {
+          "QuikGraph": "2.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.Graphviz.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramAnalysis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Msagl/1.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fqxj+pmZEo/H2z/LEMFSmtt6GrSj2FKZfz15HhTQRhYRpdewFaC5mPIUxkzELJTac/hbUDb28QBjG/w0JbG2wg==",
+      "path": "microsoft.msagl/1.1.6",
+      "hashPath": "microsoft.msagl.1.1.6.nupkg.sha512"
+    },
+    "Microsoft.Msagl.Drawing/1.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xKEOHGDEzf1ulz7GISBxnjsqSl5+YhMhZ1I/UU7GMUkFtrwuShVg+irAZiZeK9VQRePXWeFWVhBlxrc3XulXNQ==",
+      "path": "microsoft.msagl.drawing/1.1.6",
+      "hashPath": "microsoft.msagl.drawing.1.1.6.nupkg.sha512"
+    },
+    "Microsoft.Msagl.GraphViewerGDI/1.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-av6SIZxaNILJ2r0ALvRBppOPYNCkGr2OQTx6XhwpB4rwrHtvKpcP5Olj9Qj4Yq6ijthKkmmkhHkDk6MHfpqbtA==",
+      "path": "microsoft.msagl.graphviewergdi/1.1.7",
+      "hashPath": "microsoft.msagl.graphviewergdi.1.1.7.nupkg.sha512"
+    },
+    "Mono.Cecil/0.11.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxfX+0JGTZ8YQeu1MYjbBiK2CYTSzDyEeIixt+yqKKTn7FW8rv7JMY70qevup4ZJfD7Kk/VG/jDzQQTpfch87g==",
+      "path": "mono.cecil/0.11.5",
+      "hashPath": "mono.cecil.0.11.5.nupkg.sha512"
+    },
+    "QuikGraph/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sG+mrPpXwxlXknRK5VqWUGiOmDACa9X+3ftlkQIMgOZUqxVOQSe0+HIU9PTjwqazy0pqSf8MPDXYFGl0GYWcKw==",
+      "path": "quikgraph/2.5.0",
+      "hashPath": "quikgraph.2.5.0.nupkg.sha512"
+    },
+    "QuikGraph.Data/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QLKEAeawZfeCunzHHwjHVzWRCUsM5SzqAy2jaj5Ibi0R9IiDrTevdk7Oz7F0XgDrhe7b5MAub3tQwRfSyJAxqA==",
+      "path": "quikgraph.data/2.5.0",
+      "hashPath": "quikgraph.data.2.5.0.nupkg.sha512"
+    },
+    "QuikGraph.Graphviz/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pCKpErtHGxUi72OT+2aIg1pdHdUqpqEM5J/i9rmVsEVDE4X0xb1HBPWdxv/FLZmbBjk0ZogZXZttUL3CnAPpNw==",
+      "path": "quikgraph.graphviz/2.5.0",
+      "hashPath": "quikgraph.graphviz.2.5.0.nupkg.sha512"
+    }
+  }
+}

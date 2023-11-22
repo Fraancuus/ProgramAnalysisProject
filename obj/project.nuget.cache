@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "4YVdY0vXFoYx4QE6vjvHt19as9XQlem8dgGrRBej35r1WdevxSyZyqlwEV7QDTamX7ijiA89RO9c15n+4ojFLQ==",
+  "success": true,
+  "projectFilePath": "C:\\DTU\\Program Analysis code\\ProgramAnalysisProject\\ProgramAnalysisProject\\ProgramAnalysis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.msagl\\1.1.6\\microsoft.msagl.1.1.6.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.msagl.drawing\\1.1.6\\microsoft.msagl.drawing.1.1.6.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.msagl.graphviewergdi\\1.1.7\\microsoft.msagl.graphviewergdi.1.1.7.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\mono.cecil\\0.11.5\\mono.cecil.0.11.5.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph\\2.5.0\\quikgraph.2.5.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph.data\\2.5.0\\quikgraph.data.2.5.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph.graphviz\\2.5.0\\quikgraph.graphviz.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
