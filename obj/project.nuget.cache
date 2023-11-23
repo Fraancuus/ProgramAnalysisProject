@@ -1,16 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "4YVdY0vXFoYx4QE6vjvHt19as9XQlem8dgGrRBej35r1WdevxSyZyqlwEV7QDTamX7ijiA89RO9c15n+4ojFLQ==",
+  "dgSpecHash": "h+uA40/8zPK25HjWdxpdjK/6VtueL7yueGrUoyAiOWL83hmSkeBeqiaAc4RfFjvxpV6PwQPkNe0R767gq/vUNQ==",
   "success": true,
   "projectFilePath": "C:\\DTU\\Program Analysis code\\ProgramAnalysisProject\\ProgramAnalysisProject\\ProgramAnalysis.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.diagnostics.netcore.client\\0.2.410101\\microsoft.diagnostics.netcore.client.0.2.410101.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.diagnostics.runtime\\3.1.456101\\microsoft.diagnostics.runtime.3.1.456101.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.diagnostics.tracing.traceevent\\3.1.6\\microsoft.diagnostics.tracing.traceevent.3.1.6.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.1\\microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
     "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.msagl\\1.1.6\\microsoft.msagl.1.1.6.nupkg.sha512",
     "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.msagl.drawing\\1.1.6\\microsoft.msagl.drawing.1.1.6.nupkg.sha512",
     "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.msagl.graphviewergdi\\1.1.7\\microsoft.msagl.graphviewergdi.1.1.7.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
     "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\mono.cecil\\0.11.5\\mono.cecil.0.11.5.nupkg.sha512",
     "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph\\2.5.0\\quikgraph.2.5.0.nupkg.sha512",
     "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph.data\\2.5.0\\quikgraph.data.2.5.0.nupkg.sha512",
-    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph.graphviz\\2.5.0\\quikgraph.graphviz.2.5.0.nupkg.sha512"
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\quikgraph.graphviz\\2.5.0\\quikgraph.graphviz.2.5.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\system.security.accesscontrol\\4.4.0\\system.security.accesscontrol.4.4.0.nupkg.sha512",
+    "C:\\Users\\GianfrancoBardiApari\\.nuget\\packages\\system.security.principal.windows\\4.4.0\\system.security.principal.windows.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

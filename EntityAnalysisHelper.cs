@@ -50,9 +50,15 @@ public class EntityAnalysisHelper
     public string ExtractGenericType(string inputType)
     {
         var match = Regex.Match(inputType, pattern: @"\<([^>]*)\>");
-        return match.Success
-            ? match.Groups[1].Value
-            : inputType;
+        string result;
+
+        if (match.Success)
+        {
+            result = match.Groups[1].Value;
+            return result;
+        }
+
+        return inputType;
     }
 
 
@@ -75,7 +81,8 @@ public class EntityAnalysisHelper
                 if (type == null)
                 {
                     type = typeof(object);
-                    columnName = $"{columnName} ({memberParts[0]})";
+                    columnName = $"{columnName} ({GetClassName(memberParts[0])})";
+                    // We extract the class name in this case since we are having trouble getting the type which means it's probably a custom type
                 }
 
                 table.Columns.Add(columnName, type);

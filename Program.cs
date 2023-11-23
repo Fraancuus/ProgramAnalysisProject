@@ -5,8 +5,9 @@ using ProgramAnalysis;
 Console.WriteLine(value: "Hello, World!");
 var controller = new MainController();
 // call the run method
-controller.Run();
-
+//controller.Run();
+ProcessSupervisor.AttachToProcess();
+ProcessSupervisor.listenToProcess();
 
 while (true)
 {
